@@ -11,7 +11,7 @@ const nextConfig = {
     contactUrl: 'https://github.com/danstis/kasm-workspaces/issues',
   },
   reactStrictMode: true,
-  basePath: '/kasm-registry/1.0',
+  basePath: '/kasm-workspaces/1.0',
   trailingSlash: true,
   images: {
     unoptimized: true,
