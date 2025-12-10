@@ -1,0 +1,43 @@
+{
+  "friendly_name": "RustDesk",
+  "image_src": "rustdesk.png",
+  "description": "RustDesk is a full-featured open source remote control alternative for self-hosting and security with minimal configuration.",
+  "cores": 2,
+  "memory": 2768,
+  "gpu_count": 0,
+  "cpu_allocation_method": "Inherit",
+  "docker_registry": "https://ghcr.io/",
+  "categories": [
+    "Productivity"
+  ],
+  "require_gpu": false,
+  "enabled": true,
+  "image_type": "Container",
+  "run_config": {
+    "security_opt": [
+      "seccomp=unconfined"
+    ],
+    "entrypoint": [
+      "/kasminit"
+    ],
+    "user": 1000,
+    "environment": {
+      "HOME": "/home/kasm-user"
+    }
+  },
+  "exec_config": {},
+  "architecture": [
+    "amd64",
+    "arm64"
+  ],
+  "compatibility": [
+    {
+      "version": "1.18.x",
+      "image": "lscr.io/linuxserver/rustdesk:latest",
+      "uncompressed_size_mb": 2470,
+      "available_tags": [
+        "latest"
+      ]
+    }
+  ]
+}
