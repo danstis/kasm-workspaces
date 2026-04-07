@@ -1,6 +1,4 @@
 1.0
 1.1
-dependabot_npm_and_yarn_site_js-yaml-4.1.1
-dependabot_npm_and_yarn_site_minimatch-3.1.5
-dependabot_npm_and_yarn_site_next-16.1.5
+dependabot_npm_and_yarn_processing_npm_and_yarn-ac41cb4f08
 feature_dependency_update
