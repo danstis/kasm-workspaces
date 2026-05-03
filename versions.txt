@@ -2,3 +2,4 @@
 1.1
 dependabot_npm_and_yarn_processing_npm_and_yarn-ac41cb4f08
 feature_dependency_update
+renovate_configure
